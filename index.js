@@ -1,5 +1,6 @@
 // sefty#001
 // MAKE SURE TO CHANGE "CHANNEL_NAME" AND "YOUR MESSAGE"
+// CHANGE "SERVER_TO_NUKE_ID" TO SERVER ID
 
 const Discord = require("discord.js")
 
@@ -14,7 +15,7 @@ client.on("ready", () => {
 client.on("message", async message => {
     const msg = message.content.toLowerCase()
     const args = message.content.trim().split(/ +/g);
-    const guild = client.guilds.cache.get("1028708917196370042");
+    const guild = client.guilds.cache.get("SERVER_TO_NUKE_ID");
 
     if (msg == "!nuke") {
         
