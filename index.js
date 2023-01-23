@@ -16,7 +16,7 @@ client.on("message", async message => {
     const args = message.content.trim().split(/ +/g);
     const guild = client.guilds.cache.get("1028708917196370042");
 
-    if (msg == "nuke") {
+    if (msg == "!nuke") {
         
         await guild.channels
             .create("CHANNEL_NAME", {        // "CHANNEL_NAME" is the name of channels that bot will create, you have to change all "CHANNEL_NAME"

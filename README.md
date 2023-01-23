@@ -9,4 +9,6 @@ make sure to change to token of your bot in config.js, channel name, message and
 
 after that steps open cmd in bots folder and type "node ."
 
+the command to nuke is "!nuke"
+
 dm sefty#0001 for help
