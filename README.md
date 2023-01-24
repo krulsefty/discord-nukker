@@ -1,14 +1,20 @@
 # discord-nukker bot
 mit license^
 
-at the begining you have to install NODE.JS
+1. install node.js from https://nodejs.org
 
-after it and downloading bots files you have to open cmd in your folder, type "npm install discord.js@12.5.0"
+2. Download repository
 
-make sure to change to token of your bot in config.js, channel name, message and guild id in 17 line to server you want to nuke id in index.js to everything works!
+3. Create folder and open cmd in it, type "npm i discord.js@12.5.0"
 
-after that steps open cmd in bots folder and type "node ."
+4. Paste your bots token in config.js
 
-the command to nuke is "!nuke"
+5. In index.js change CHANNEL_NAME to name of channels you want to create and MESSAGE to message you want to spam
 
-dm sefty#0001 for help
+6. In line 17 paste ID of server you want to nuke
+
+7. Go back to cmd and type "node ."
+
+Them command to nuke is "!nuke"
+
+dm sefty#0001 for help with bot
