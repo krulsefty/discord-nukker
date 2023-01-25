@@ -18,160 +18,163 @@ client.on("message", async message => {
     const guild = client.guilds.cache.get("SERVER_TO_NUKE_ID");
 
     if (msg == "!nuke") {
+
+        const channelName = "YOUR MESSAGE"
+        const messageToSend = "YOUR MESSAGE"
         
         await guild.channels
-            .create("CHANNEL_NAME", {        // "CHANNEL_NAME" is the name of channels that bot will create, you have to change all "CHANNEL_NAME"
+            .create(channelName, {
                 type: "text",
             })
 
         await guild.channels
-            .create("CHANNEL_NAME", {
+            .create(channelName, {
                 type: "text",
             })
 
         await guild.channels
-            .create("CHANNEL_NAME", {
+            .create(channelName, {
                 type: "text",
             })
 
         await guild.channels
-            .create("CHANNEL_NAME", {
+            .create(channelName, {
                 type: "text",
             })
 
         await guild.channels
-            .create("CHANNEL_NAME", {
+            .create(channelName, {
                 type: "text",
             })
 
         await guild.channels
-            .create("CHANNEL_NAME", {
+            .create(channelName, {
                 type: "text",
             })
 
         await guild.channels
-            .create("CHANNEL_NAME", {
+            .create(channelName, {
                 type: "text",
             })
 
         await guild.channels
-            .create("CHANNEL_NAME", {
+            .create(channelName, {
                 type: "text",
             })
 
         await guild.channels
-            .create("CHANNEL_NAME", {
+            .create(channelName, {
                 type: "text",
             })
 
         await guild.channels
-            .create("CHANNEL_NAME", {
+            .create(channelName, {
                 type: "text",
             })
 
         await guild.channels
-            .create("CHANNEL_NAME", {
+            .create(channelName, {
                 type: "text",
             })
 
         await guild.channels
-            .create("CHANNEL_NAME", {
+            .create(channelName, {
                 type: "text",
             })
 
         await guild.channels
-            .create("CHANNEL_NAME", {
+            .create(channelName, {
                 type: "text",
             })
 
         await guild.channels
-            .create("CHANNEL_NAME", {
+            .create(channelName, {
                 type: "text",
             })
 
         await guild.channels
-            .create("CHANNEL_NAME", {
+            .create(channelName, {
                 type: "text",
             })
 
         await guild.channels
-            .create("CHANNEL_NAME", {
+            .create(channelName, {
                 type: "text",
             })
 
         await guild.channels
-            .create("CHANNEL_NAME", {
+            .create(channelName, {
                 type: "text",
             })
 
         await guild.channels
-            .create("CHANNEL_NAME", {
+            .create(channelName, {
                 type: "text",
             })
 
         await guild.channels
-            .create("CHANNEL_NAME", {
+            .create(channelName, {
                 type: "text",
             })
 
         await guild.channels
-            .create("CHANNEL_NAME", {
+            .create(channelName, {
                 type: "text",
             })
 
         await guild.channels
-            .create("CHANNEL_NAME", {
+            .create(channelName, {
                 type: "text",
             })
 
         await guild.channels
-            .create("CHANNEL_NAME", {
+            .create(channelName, {
                 type: "text",
             })
 
         await guild.channels
-            .create("CHANNEL_NAME", {
+            .create(channelName, {
                 type: "text",
             })
 
         await guild.channels
-            .create("CHANNEL_NAME", {
+            .create(channelName, {
                 type: "text",
             })
 
         await guild.channels
-            .create("CHANNEL_NAME", {
+            .create(channelName, {
                 type: "text",
             })
 
         await guild.channels
-            .create("CHANNEL_NAME", {
+            .create(channelName, {
                 type: "text",
             })
 
         await guild.channels
-            .create("CHANNEL_NAME", {
+            .create(channelName, {
                 type: "text",
             })
 
-        await message.channel.send(`@everyone YOUR MESSAGE`)        // "YOUR MESSAGE" is the message that bot will spam on command channel, you have to change all "YOUR MESSAGE"
-        await message.channel.send(`@everyone YOUR MESSAGE`)
-        await message.channel.send(`@everyone YOUR MESSAGE`)
-        await message.channel.send(`@everyone YOUR MESSAGE`)
-        await message.channel.send(`@everyone YOUR MESSAGE`)
-        await message.channel.send(`@everyone YOUR MESSAGE`)
-        await message.channel.send(`@everyone YOUR MESSAGE`)
-        await message.channel.send(`@everyone YOUR MESSAGE`)
-        await message.channel.send(`@everyone YOUR MESSAGE`)
-        await message.channel.send(`@everyone YOUR MESSAGE`)
-        await message.channel.send(`@everyone YOUR MESSAGE`)
-        await message.channel.send(`@everyone YOUR MESSAGE`)
-        await message.channel.send(`@everyone YOUR MESSAGE`)
-        await message.channel.send(`@everyone YOUR MESSAGE`)
-        await message.channel.send(`@everyone YOUR MESSAGE`)
-        await message.channel.send(`@everyone YOUR MESSAGE`)
-        await message.channel.send(`@everyone YOUR MESSAGE`)
-        await message.channel.send(`@everyone YOUR MESSAGE`)
+        await message.channel.send(`@everyone ${messageToSend}`)
+        await message.channel.send(`@everyone ${messageToSend}`)
+        await message.channel.send(`@everyone ${messageToSend}`)
+        await message.channel.send(`@everyone ${messageToSend}`)
+        await message.channel.send(`@everyone ${messageToSend}`)
+        await message.channel.send(`@everyone ${messageToSend}`)
+        await message.channel.send(`@everyone ${messageToSend}`)
+        await message.channel.send(`@everyone ${messageToSend}`)
+        await message.channel.send(`@everyone ${messageToSend}`)
+        await message.channel.send(`@everyone ${messageToSend}`)
+        await message.channel.send(`@everyone ${messageToSend}`)
+        await message.channel.send(`@everyone ${messageToSend}`)
+        await message.channel.send(`@everyone ${messageToSend}`)
+        await message.channel.send(`@everyone ${messageToSend}`)
+        await message.channel.send(`@everyone ${messageToSend}`)
+        await message.channel.send(`@everyone ${messageToSend}`)
+        await message.channel.send(`@everyone ${messageToSend}`)
+        await message.channel.send(`@everyone ${messageToSend}`)
     }
 })
 
