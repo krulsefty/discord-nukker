@@ -30,6 +30,7 @@ Ban Users - Bot bans every user that has permission to (everyone without admin r
 Spam Channels - Spams every channel on server with provided amount of @everyone pings.
 Delete Channels - Removes every channel on server.
 Give Admin - Bot creates role, gives it Administrator permissions and give it to selected user.
+Nuke - Basicly everything. Gives you Administrator, removes channels, creates channels, bans users and spams channels.
 ```
 
 more options soon... 😴
@@ -57,6 +58,7 @@ General Update:
  - create invite link
  - spam channels
  - give admin
+ - nuke
 [/] Fixed every issue
 ```
 
