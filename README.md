@@ -4,15 +4,15 @@
 
 # Description
 
-This app is an simple, ready to use Discord server nukker coded by [me](https://fentanyl.recipes).
+This app is a simple, ready to use Discord server nukker coded by [me](https://fentanyl.recipes).
 The only thing you need to use this bot is Node.JS installed on you computer
 and access to bot's token. 🤩
 
 ![Thumbnail](https://github.com/krulsefty/discord-nukker/blob/main/files/image.png)
 
-After opening `start.bat` file, provide token to your discord bot. Then it will display
+After opening `start.bat` file, provide token of your discord bot. Then there will be displayed
 list of servers that the bot is on, where you have to select in which guild you
-want the bot to run. After that you're ready to go. Pick what you want to do
+want to run the bot. After that you're ready to go. Pick what you want to do
 using numbers.
 
 ## Functions
