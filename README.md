@@ -2,7 +2,11 @@
 <!-- sefty -->
 <!--- sefty --->
 
-# Description
+# Discord Nukker / Nuke Bot
+
+#### Made by sefty
+
+## Description
 
 This app is a simple, ready to use Discord server nukker coded by [me](https://fentanyl.recipes).
 The only thing you need to use this bot is Node.JS installed on you computer
@@ -30,7 +34,7 @@ Give Admin - Bot creates role, gives it Administrator permissions and give it to
 
 more options soon... 😴
 
-## Installation
+## Installation / Guide
 
 1. Clone/download files from repository.
 2. Create your Bot on [Discord Developer Website](https://discord.dev) (if you don't have one).
@@ -55,3 +59,8 @@ General Update:
  - give admin
 [/] Fixed every issue
 ```
+
+## Issues
+
+- Message for all skids 😂 / coding masters: If you see any things that I can improve / that I need to fix, feel free to report it in "Issues" tab.
+- If you experiance any error, restart `start.bat` file. That solution works in 90% of the time.
