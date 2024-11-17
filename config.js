@@ -1,6 +1,0 @@
-// sefty#0001
-// CHANGE "YOURS_BOT_TOKEN" TO TOKEN OF YOUR BOT
-
-module.exports = {
-  TOKEN: "YOURS_BOT_TOKEN",
-}

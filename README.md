@@ -1,20 +1,35 @@
-# discord-nukker bot
-mit license^
+# Description
 
-- install node.js from https://nodejs.org
+This app is an simple, ready to use Discord server nukker coded by [me](https://fentanyl.recipes).
+The only thing you need to use this bot is Node.JS installed on you computer
+and access to bot's token. 🤩
 
-- download repository
+![Thumbnail](https://github.com/krulsefty/discord-nukker/files/image.png)
 
-- create folder and open cmd in it, type "npm i discord.js@12.5.0"
+After opening `start.bat` file, provide token to your discord bot. Then it will display
+list of servers that the bot is on, where you have to select in which guild you
+want the bot to run. After that you're ready to go. Pick what you want to do
+using numbers.
 
-- paste your bots token in config.js
+## Functions
 
-- in index.js change CHANNEL_NAME to name of channels you want to create and MESSAGE to message you want to spam
+```
+Display Members - Displays list of all members on server with their user ID.
+Display Channels - Displays list of all channels on server with their type, category and ID.
+Create Invite Link - Simply creates invite link to selected server.
+Create Channels - Creates provided amount of channels with provided name.
+Ban Users - Bot bans every user that has permission to (everyone without admin role that is under bot).
+Spam Channels - Spams every channel on server with provided amount of @everyone pings.
+Delete Channels - Removes every channel on server.
+Give Admin - Bot creates role, gives it Administrator permissions and give it to selected user.
+```
 
-- in line 17 paste ID of server you want to nuke
+more options soon... 😴
 
-- go back to cmd and type "node ."
+## Installation
 
-Them command to nuke is "!nuke"
-
-dm sefty#0001 for help with bot
+1. Clone/download files from repository
+2.1 Create your Bot on [Discord Developer Website](https://discord.dev) (if you don't have one)
+2.2 Invite Bot to your server (OAuth2 -> bot -> administrator -> copy link)
+3. Download [Node.JS](https://nodejs.org) (if you don't have it already)
+4. Run `start.js` file.
