@@ -4,7 +4,7 @@ This app is an simple, ready to use Discord server nukker coded by [me](https://
 The only thing you need to use this bot is Node.JS installed on you computer
 and access to bot's token. 🤩
 
-![Thumbnail](https://github.com/krulsefty/discord-nukker/files/image.png)
+![Thumbnail](https://github.com/krulsefty/discord-nukker/blob/main/files/image.png)
 
 After opening `start.bat` file, provide token to your discord bot. Then it will display
 list of servers that the bot is on, where you have to select in which guild you
