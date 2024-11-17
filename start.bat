@@ -1,6 +1,6 @@
 @REM sefty
 @REM sefty
-@REM efty
+@REM sefty
 
 @echo off
 title discord-nukker
