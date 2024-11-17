@@ -1,3 +1,7 @@
+<!--- sefty --->
+<!-- sefty -->
+<!--- sefty --->
+
 # Description
 
 This app is an simple, ready to use Discord server nukker coded by [me](https://fentanyl.recipes).

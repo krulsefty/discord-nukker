@@ -1,3 +1,7 @@
+/// sefty
+// sefty
+/// sefty
+
 const { Client } = require("discord.js")
 const client = new Client()
 const readline = require("readline")

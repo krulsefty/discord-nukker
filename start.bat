@@ -1,5 +1,9 @@
+@REM sefty
+@REM sefty
+@REM efty
+
 @echo off
-title wojtek.mafia
+title discord-nukker
 
 node --no-deprecation files/index.js %TOKEN%
 
