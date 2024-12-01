@@ -37,7 +37,7 @@ more options soon... 😴
 
 ## Installation / Guide
 
-1. Clone/download files from repository.
+1. Download files from repository.
 2. Create your Bot on [Discord Developer Website](https://discord.dev) (if you don't have one).
 3. Invite Bot to your server (OAuth2 -> bot -> administrator -> copy link).
 4. Download [Node.JS](https://nodejs.org) (if you don't have it already).
